@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #000;
+  font-family: arial, sans-serif;
+  overflow-x: hidden;
+}
+.networkbar {
+  width: 100%;
+  height: 22px;
+  line-height: normal;
+  background-color: #000;
+}
+.networkbar > ul {
+  width: 100%;
+  height: inherit;
+  background-color: inherit;
+  font-size: 11px;
+  margin-left: 3.8%;
+}
+.networkbar > ul > li {
+  text-align: center;
+  background-color:inherit;
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+  padding-left: 0;
+  color: #BBBBBB;
+  padding: 5px 24px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.networkbar > ul > li:hover {
+  text-align: center;
+  background-color:#333;
+  color:#fff;
+}
+.networkbar > ul > li > a {
+  color: inherit;
+  text-decoration: none;
+}
+#networkhome{
+  color: #fff;
+}
+.networkbar > ul > #networkhome:hover {
+  text-align: center;
+  background-color:inherit;
+  color:#fff;
+  cursor: default;
+}
+.headerwrapper {
+  width: 100%;
+  background-color: #1b1b1b;
+}
+.containerwrapper {
+  height: 61px;
+  margin-left: 21.5%;
+  padding-top: 17px;
+}
+.searchbar{
+  height: 28px;
+  width: 570px;
+  border: none;
+  color: #cacaca;
+  background-color: #363636;
+  display: inline-block;
+  font-size: 14px;
+  outline: 0;
+  padding: 4px 5px;
+  vertical-align: top;
+  border: 1px solid grey;
+  border-radius: 3px 0px 0px 3px;
+  font: 400 arial;
+}
+.searchbutton{
+  width: 65.3px;
+  height: 28px;
+  border: 1px solid transparent;
+  border-radius: 0px 3px 3px 0px;
+  padding: 4px 12px;
+  background: #f90;
+  color: #000;
+  display: inline-block;
+  margin-left: -5px;
+  text-align: center;
+}
+.uploadbutton{
+  width: 86px;
+  height: 26px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: #2f2f2f;
+  color: #acacac;
+  margin-left: 16px;
+  padding: 6px 12px;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: bold;
+  position: absolute;
+}
+.uploadbutton:hover{
+  cursor: pointer;
+  background-color: #3f3f3f;
+}
+.upgradebutton{
+  width: 92px;
+  height: 26px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: #f90;
+  color: #000;
+  margin-left: 116px;
+  padding: 6px 12px;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: bold;
+  position: absolute;
+}
+.upgradebutton:hover, .searchbutton:hover{
+  background-color: #ffa319;
+  cursor: pointer;
+}
+.logo {
+  height: auto;
+  width: 11%;
+  position: absolute;
+  margin-left: -17%;
+  margin-top:-0.5%;
+}
+.mainmenu {
+  background: #1b1b1b;
+  height: 43px;
+  width: 100%;
+  border-bottom: 1px solid #1b1b1b;
+  border-top: 0.5px solid #252525;
+}
+.mainmenu > ul {
+  width: inherit;
+  margin-left: 6%;
+  padding: 0;
+}
+.mainmenu > ul > li {
+  height: 43px;
+  list-style: none;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  border-top: 1px solid transparent;
+  font-size: 12px;
+  text-align: center;
+  padding: 15px 10px 0;
+}
+.mainbutton{
+  min-width: 145px;
+}
+.mainhome{
+  width: 100px;
+  padding: 20px;
+}
+.mainmenu > ul > li:hover {
+  text-decoration: none;
+  background: #191919;
+  border-left: 1px solid #252525;
+  border-top: 1px solid #252525;
+  border-right: 1px solid #252525;
+  cursor: pointer;
+}
+.orangeborder {
+  position:absolute;
+  background-color: #f90;
+  border: 1px solid #f90;
+  height: 2px;
+  width: 62px;
+  margin-left: 110px;
+  margin-top: 38px;
+  z-index: 10;
+}
+main{
+  margin-left: 6.7%;
+}
+#learnabout {
+  text-align: center;
+  font-size: 14px;
+  color: #f90;
+  margin-top: 17px;
+}
+#learnabout:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.advertisement > a > .ad {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 2%;
+  height: auto;
+  width: 32%;
+  z-index: 99;
+}
+main > h1{
+  width: 350px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 26px;
+}
+main > h1:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.video {
+  margin-top: 3%;
+  display: inline-block;
+  float: left;
+  margin-right: -60px;
+}
+.video > p {
+  font-size: 14px;
+  color: #f90;
+  text-align: left;
+}
+.video > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.video > small {
+  color: #cacaca;
+  text-align: left;
+}
+.thumbsup {
+  color: #fff;
+}
+.fa-thumbs-up {
+  color: #25a36e;
+}
+#thumbnail1, #thumbnail2{
+  width: 80%;
+  height: auto;
+}
